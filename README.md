@@ -77,7 +77,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 Our method incurs a constant pruning cost, while previous works exhibit a linear increase in pruning cost with both the number of budgets and hardware devices.
 
 #### ImageNet 
-| Model <img width=100/> | Inference  latency (FPS) | Top-1 Accuracy | Top-5 Accuracy |                                            Checkpoints                                             |
+| Model <img width=100/> | Inference  speed (FPS) | Top-1 Accuracy | Top-5 Accuracy |                                            Checkpoints                                             |
 |:----------------------:|:------------------------:|:--------------:|:--------------:|:--------------------------------------------------------------------------------------------------:|
 |       ResNet-50        |           1523           |     76.2%      |     92.9%      | [Download](https://drive.google.com/file/d/1RS_NYU7W__V2NDUkkp5Mf3xckxLXOdav/view?usp=drive_link)  |
 |       ResNet-50        |           2506           |     76.1%      |     92.8%      |                                                                                                    | 
